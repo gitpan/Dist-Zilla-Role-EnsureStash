@@ -9,7 +9,7 @@
 #
 package Dist::Zilla::Role::EnsureStash;
 {
-  $Dist::Zilla::Role::EnsureStash::VERSION = '0.001';
+  $Dist::Zilla::Role::EnsureStash::VERSION = '0.002';
 }
 
 # ABSTRACT: Ensure your plugin has access to a certain stash
@@ -60,7 +60,7 @@ Dist::Zilla::Role::EnsureStash - Ensure your plugin has access to a certain stas
 
 =head1 VERSION
 
-This document describes version 0.001 of Dist::Zilla::Role::EnsureStash - released December 22, 2012 as part of Dist-Zilla-Role-EnsureStash.
+This document describes version 0.002 of Dist::Zilla::Role::EnsureStash - released December 30, 2012 as part of Dist-Zilla-Role-EnsureStash.
 
 =head1 SYNOPSIS
 

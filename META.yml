@@ -12,7 +12,7 @@ build_requires:
   Test::Moose::More: 0
   Test::More: 0.88
   aliased: 0
-  autobox::Core: 0
+  autobox::Core: 1.24
   strict: 0
   warnings: 0
 configure_requires:
@@ -31,7 +31,7 @@ no_index:
 provides:
   Dist::Zilla::Role::EnsureStash:
     file: lib/Dist/Zilla/Role/EnsureStash.pm
-    version: 0.001
+    version: 0.002
 requires:
   Dist::Zilla::Role::RegisterStash: 0
   Moose::Role: 0
@@ -39,7 +39,7 @@ requires:
   namespace::autoclean: 0
   perl: 5.006
 resources: {}
-version: 0.001
+version: 0.002
 x_Dist_Zilla:
   perl:
     version: 5.016001
@@ -71,7 +71,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::ContributorsFromGit
       name: '@RSRCHBOY/ContributorsFromGit'
-      version: 0.002
+      version: 0.003
     -
       class: Dist::Zilla::Plugin::Git::CheckFor::CorrectBranch
       name: '@RSRCHBOY/@Git::CheckFor/Git::CheckFor::CorrectBranch'
@@ -203,7 +203,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::GitHub::Meta
       name: '@RSRCHBOY/GitHub::Meta'
-      version: 0.28
+      version: 0.29
     -
       class: Dist::Zilla::Plugin::TestRelease
       name: '@RSRCHBOY/TestRelease'
@@ -223,7 +223,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::GitHub::Update
       name: '@RSRCHBOY/GitHub::Update'
-      version: 0.28
+      version: 0.29
     -
       class: Dist::Zilla::Plugin::UploadToCPAN
       name: '@RSRCHBOY/UploadToCPAN'

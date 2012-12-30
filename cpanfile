@@ -14,7 +14,7 @@ on 'test' => sub {
   requires "Test::Moose::More" => "0";
   requires "Test::More" => "0.88";
   requires "aliased" => "0";
-  requires "autobox::Core" => "0";
+  requires "autobox::Core" => "1.24";
   requires "strict" => "0";
   requires "warnings" => "0";
 };
